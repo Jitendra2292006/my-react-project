@@ -14,6 +14,7 @@ function App() {
    
        <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2  ">
         <div className="flex flex-wrap justify-center bg-violet-400 px-3 py-2 rounded-4xl gap-7">
+         
           <button
             onClick={() => setcolor("white")}
             className="outline-none px-4 py-1 rounded-full text-black shadow-lg"
@@ -21,6 +22,7 @@ function App() {
           >
             white
           </button>
+         
           <button
             onClick={() => setcolor("pink")}
             className="outline-none px-4 py-1 rounded-full text-black shadow-lg"

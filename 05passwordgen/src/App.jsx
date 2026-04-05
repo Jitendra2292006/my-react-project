@@ -47,7 +47,7 @@ rounded-lg px-4 my-8 text-white transparent shadow-black  py-2'>
     ref={passwordRef}
     />
     <button className='bg-blue-500 p-3 text-bold text-white rounded outline-none shrink-0'
-   onClick={copyclipboard} >copy</button>
+   onClick={copyclipboard} title="copy">copy</button>
   </div>
   <div className='flex text-sm gap-x-2'>
     <div className='flex item-center gap-x-1'>
