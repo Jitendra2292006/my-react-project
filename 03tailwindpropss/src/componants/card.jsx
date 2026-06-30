@@ -1,7 +1,6 @@
 import React from 'react'
 
 function Card({username="Deepak sharma"}) {
-    console.log(username)
     return (
         
         <div className="bg-white shadow-md rounded-lg p-4 m-4">
