@@ -1,8 +1,9 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
-
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+//fixing the issue of tailwindcss not working with vite
+// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(),tailwindcss()],
-  base: './', // Set the base path to the current directory
-})
+  plugins: [react(), tailwindcss()],
+  base: "./", // Set the base path to the current directory
+});
